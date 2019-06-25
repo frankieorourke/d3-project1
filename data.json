@@ -1,0 +1,24 @@
+{
+	"times":[
+		"2019-06-01T18:25:43.511Z", 
+		"2019-06-01T18:30:43.511Z", 
+		"2019-06-01T18:35:43.511Z"
+	],
+	"throughput_groups":[
+		{
+			"app_name": "WhatsApp", 
+			"is_local":false, 
+			"throughputs": [100, 200, 150]
+		}, 
+		{
+			"app_name": "SantaInezApp1", 
+			"is_local":true, 
+			"throughputs": [500, 200, 750]
+			}, 
+		{
+			"app_name": "Facebook", 
+			"is_local":false, 
+			"throughputs": [10, 200, 150]
+		}
+	]
+}
